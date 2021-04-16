@@ -1,11 +1,18 @@
+package codes;
+
 import java.util.Arrays;
 
-/* 
-*  Program to find and Separate all Odd and Even numbers in array 
-*        -> Count no of zeros in array
-*/
+/**
+ * 
+ * Program to find and Separate all Odd and Even numbers in array 
+ *        -> Count no of zeros in array
+ *
+ * @since 2021
+ * @version April-4-2021
+ * @author DIVAKARAN 
+ */
 
-class FindEvenAndOdd
+ public class SeprateEvenAndOddInArray
 {
     public static void main(String... diva) 
     { 
