@@ -1,7 +1,4 @@
-package codes;
-
 import java.util.Arrays;
-
 /**
  * 
  * Program to find and Separate all Odd and Even numbers in array 
