@@ -13,13 +13,13 @@ import java.util.Arrays;
 {
     public static void main(String... diva) 
     { 
-        int given_Array[] = {3,4,-2,0,24,21,-1,45,0,34,-5,9,0,14,15}, count_zero = 0;
+        short given_Array[] = {3,4,-2,0,24,21,-1,45,0,34,-5,9,0,14,15}, count_zero = 0;
         final byte LENGTH = (byte)given_Array.length;
 
         System.out.println("\nGiven Arrays Is : "+ Arrays.toString(given_Array));
 
         System.out.println("\nEven Numbers are : ");
-        for (int i = 0; i < LENGTH; i++) 
+        for (byte i = 0; i < LENGTH; i++) 
         {
             if(given_Array[i] == 0)
             {
@@ -30,7 +30,7 @@ import java.util.Arrays;
         }
 
         System.out.println("\nOdd Numbers are : ");
-        for (int i = 0; i < LENGTH; i++) 
+        for (byte i = 0; i < LENGTH; i++) 
         {
             if(given_Array[i] == 0)
             {
@@ -41,7 +41,7 @@ import java.util.Arrays;
         }
        
         // To Count Zeros
-        for (int i = 0; i < LENGTH; i++) 
+        for (byte i = 0; i < LENGTH; i++) 
         {
             if(given_Array[i] == 0)
             {
@@ -52,14 +52,14 @@ import java.util.Arrays;
         System.out.println("\n");
     }
 
-    private static void checkEven(final int arr) 
+    private static void checkEven(final short arr) 
     {
         if(arr % 2 == 0)
         {         
             System.out.print(arr + " ");
         }
     }
-    private static void checkOdd(final int arr) 
+    private static void checkOdd(final short arr) 
     {
         if(arr % 2 != 0)
         {         
