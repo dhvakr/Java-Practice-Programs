@@ -49,6 +49,7 @@ import java.util.Arrays;
             }
         }
         System.out.printf("\n\n---> There are %d zeros(0) in Given_Array",count_zero);
+        System.out.println();
     }
 
     private static void checkEven(final int arr) 
