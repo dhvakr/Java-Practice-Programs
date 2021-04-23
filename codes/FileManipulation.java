@@ -4,6 +4,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
+/**
+ * Program to create a file and copy the contents to anothe file
+ */
+
 public final class FileManipulation 
 {
     /**
