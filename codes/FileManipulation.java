@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /**
- * Program to create a file and copy the contents to anothe file
+ * Program to create a file and copy the contents to another file
  */
 
 public final class FileManipulation 
