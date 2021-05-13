@@ -2,14 +2,13 @@ import java.util.Arrays;
 /**
  * 
  * Program to find and Separate all Odd and Even numbers in array 
- *        -> Count no of zeros in array
+ *       -> Count no of zeros in array
  *
  * @since 2021
  * @version April-16-2021
  * @author DIVAKARAN 
  */
-
- public class SeprateEvenAndOddInArray
+public final class SeprateEvenAndOddInArray
 {
     public static void main(String... diva) 
     { 

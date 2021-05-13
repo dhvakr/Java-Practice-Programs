@@ -1,11 +1,15 @@
 /**
- * NOTE : Year taken default as between 1400 <--> 2050
- * Default as - 18-02-1997
  * 
+ * Program to check DateFormat is valid or invalid
+ * NOTE : Year taken default as between 1400 <--> 2050
+ *     -> Default set as - 18-02-1997
+ * 
+ * @since 2021
+ * @version UPDATED@ May-13
  * @author DIVAKARAN 
 */
 
-public class DateFormat extends DateValidation
+public final class DateFormat extends DateValidation
 {
     public static void main(String... diva) 
     {

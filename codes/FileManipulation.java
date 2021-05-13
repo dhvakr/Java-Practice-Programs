@@ -1,11 +1,14 @@
-import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
 /**
- * Program to create a file and copy the contents to another file
+ *  Program to create a file and copy the contents to another file
+ * 
+ * @since 2021
+ * @version UPDATED_May-13
+ * @author DIVAKARAN
  */
 
 public final class FileManipulation 
@@ -15,7 +18,7 @@ public final class FileManipulation
      * @param diva
      * @throws IOException
      */
-    public static final void main(final String... diva) throws IOException
+    public static void main(final String... diva) throws IOException
     { 
         // File sourcefile = new File("SourceFile.txt");
         // File DestinationFile = new File("DestinationFile.txt");
