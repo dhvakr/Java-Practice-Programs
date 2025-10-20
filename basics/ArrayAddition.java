@@ -1,3 +1,5 @@
+package basics;
+
 /**
  * 
  *  Program to add two array (Array Addition)

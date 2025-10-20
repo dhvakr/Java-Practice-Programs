@@ -1,3 +1,5 @@
+package basics;
+
 /**
  * 
  *  Program to add even numbers alone ^_^
